@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!--Font Awsome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler navbar-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link" href="#" id="about">About Me</a>
+                <a class="nav-link" href="#" id="experience">Experience</a>
+                <a class="nav-link" href="#" id="skills">Relevant Skills</a>
+                <a class="nav-link" href="#" id="project">Personal Projects</a>
+                <a class="nav-link" href="#" id="education">Education</a>
+                <a class="nav-link" href="#" id="contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="main-title">
+        <div class="container-fluid">
+          <h1>Raphael Almazan</h1>
+          <i>"Aspiring Web Developer"</i>
+          <div class="three-icons-container">
+            <a href="#"><i class="fab fa-github-square three-icons"></i></a>
+            <a href="https://www.linkedin.com/in/raphael-almazan-935422176?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTuUjGJavR%2FGYccfl5gcDdw%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin three-icons"></i></a>
+            <a href="" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf three-icons"></i></a>
+          </div>
+      </section>
+      <video
+        src="video.mp4"
+        class="img-fluid"
+        alt="No video"
+        muted
+        loop
+        autoplay
+      ></video>
+      <div class="overlay"></div>
+    </div>
+    <div class="main-container-2">
+      <div class="container-fluid about-me">
+        <h1 class="about-h1">About Me</h1>
+        <p class="about">My name is Raphael Almazan 👋 and I am currently a third year university student at Ontario Tech University, majoring in Networking and Computer Security. 
+          Ever since I was in elementary school, I've always wanted to work in the field of technology. Programming and hacking expanded my creativity and vision to blank.
+        </p>
+        <div class="row gy-5 about">
+          <div class="col-md-4">
+            <img src="security.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4">
+            <img src="student.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4">
+            <img src="web-dev.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container-3">
+      <div class="container-fluid exp">
+        <h1>Experience</h1>
+        <div class="row gy-2 exp2">
+          <div class="col-md-4 web_script">
+            <h4>Web and Script Programming</h4>
+            <p>
+              During my second year, I studied both client-side and server-side 
+              web applications. For the client side, I studied the fundamentals of building a basic website using HTML5, CSS3, and JS(ES6).
+              I also tackled front-end frameworks such as: Express.js, Angular.js and jQuery. Furthermore, I also learned a CSS framework called Bootstrap.
+              For the server-side, I studied MongoDB and Node.js. 
+            </p>
+            <img src="web dev.svg" alt="" class="img-fluid exp1" />
+          </div>
+          <div class="col-md-4 cloud_services">
+            <h4>Cloud Services Course</h4>
+            <p>
+              During my third year in first semester, I studied the concepts of cloud computing and cloud-based services from a technical and business perpective.
+              In addition, I learned how to deploy AWS virtual machines using the amazon web services (AWS) cloud computing service. I also learned how to use docker to
+              create docker containers and many more.
+            </p>
+            <img src="cloud services.svg" alt="" class="img-fluid web exp1" />
+          </div>
+          <div class="col-md-4 python">
+            <h4>Python Programming</h4>
+            <p>
+              During my first year, I studied python as my first programming langauage and learned about data types, variables, operators, expressions, and 
+              many more. In fact, I also learned about object oriented programming (OOP) which included many concepts and techniques that developers use in the real world today.
+            </p>
+            <img src="python.svg" alt="" class="img-fluid exp1" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container-4">
+      <div class="container-fluid Skills">
+        <h1>Relevant Skills</h1>
+        <div class="row gy-3">
+          <div class="col-md-3 icon">
+            <h4>HTML</h4>
+            <i class="fab fa-html5 fa-10x"></i>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>CSS</h4>
+            <i class="fab fa-css3-alt fa-10x"></i>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>Javascript</h4>
+            <i class="fab fa-js-square fa-10x"></i>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>Bootstrap 5</h4>
+            <i class="fab fa-bootstrap fa-10x"></i>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>Node JS</h4>
+            <i class="fab fa-node fa-10x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container-5">
+      <div class="container-fluid personal-projects">
+        <h1>Personal Projects</h1>
+        <div class="row proj">
+          <div class="col-md-4 pics">
+            <h4>Survey Form</h4>
+            <div class="card">
+              <img src="fuji.jpg" class="card-img-top" alt="no image" />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">View Website</a>
+                <a href="#" class="btn btn-primary">View GitHub Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pics">
+            <h4>Digital Marketing Agency</h4>
+            <div class="card">
+              <img src="fuji.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  A digital marketing agency static website that I designed using the application AdobeXD and created using vanilla HTML5, 
+                  CSS3 and JS. 
+                </p>
+                <a href="http://digitalmarketingagency.raphaelalmazan.ca/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Website</a>
+                <a href="#" class="btn btn-primary">View GitHub Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pics">
+            <h4>Form Validation</h4>
+            <div class="card">
+              <img src="fuji.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">View Website</a>
+                <a href="#" class="btn btn-primary">View GitHub Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container-6">
+      <div class="container-fluid education">
+        <h1>Education</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="uoit.svg" alt="uoit.svg" class="img-fluid uoit" />
+          </div>
+          <div class="col-md-6 education-info">
+            <p>
+              Third year university student at Ontario Tech University specializing in Networking and Computer Security. I participated in societies and clubs such as 
+              networking society (NETsoc) where I expanded my knowledge and connections in the field. In addition, I've competed in the CyberSCI competition in Toronto where I learned
+              how to recon a vulnerable computer network, break through the cyber defenses and take control of the systems. My team came in fourth place at the end of the competition.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container-7">
+      <div class="container-fluid contact">
+        <footer>
+          <h1>Contact</h1>
+          <form action="mailto:almazan_raphael@yahoo.ca" method="get">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="mb-3 input-box">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3 input-box">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3 input-box">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email Address</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="col-md-12 button">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </footer>
+      </div>
+    </div>
+    <script></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <!--JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollToPlugin.min.js"></script>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
